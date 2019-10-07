@@ -1,7 +1,8 @@
 def square_array(array)
   arraynew = []
  array.each do |sqnum|
-   arraynew << sqnum.sqrt
+   num = sqnum.sqrt
+   square_array << num
  end
- arraynew
+ square_array
 end
