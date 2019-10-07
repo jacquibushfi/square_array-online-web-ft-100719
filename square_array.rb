@@ -8,10 +8,9 @@
 #end
 
 def square_array(array)
-  square_array = []
- array.collect do |sqnum|
-   num = sqnum * sqnum
-   square_array << num
+  array.collect do |sqnum|
+  sqnum = sqnum * sqnum
+   
  end
  square_array
 end
