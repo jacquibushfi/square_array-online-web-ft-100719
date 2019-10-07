@@ -9,6 +9,6 @@
 
 def square_array(array)
   array.collect do |sqnum|
-  sqnum = sqnum * sqnum
+   sqnum * sqnum
  end
 end
