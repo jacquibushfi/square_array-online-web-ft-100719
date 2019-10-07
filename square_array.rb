@@ -7,8 +7,3 @@ def square_array(array)
    square_array
 end
 
-def square_array(array)
-  array.collect do |sqnum|
-   sqnum * sqnum
- end
-end
